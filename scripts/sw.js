@@ -4,7 +4,8 @@ const cacheName = 'v1';
 const cacheFiles = [
     '/',
     '/index.html',
-    '/styles.css'
+    'scripts/scripts.js',
+    'styles/styles.css'
 ];
 
 self.addEventListener('install', event => {
